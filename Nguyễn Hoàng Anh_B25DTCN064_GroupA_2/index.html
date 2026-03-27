@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast Notification System</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="brand">K25_CNTT_HN</div>
+    <div class="subtitle">Toast Notification System</div>
+  </header>
+
+  <div class="demo-panel">
+
+    <div class="btn-grid">
+      <button class="btn btn-success" onclick="showToast('success')">Success</button>
+      <button class="btn btn-error" onclick="showToast('error')">Error</button>
+      <button class="btn btn-info" onclick="showToast('info')">Info</button>
+      <button class="btn btn-warning" onclick="showToast('warning')">Warning</button>
+    </div>
+
+  </div>
+
+  <div class="toast-container"></div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
